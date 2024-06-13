@@ -51,5 +51,10 @@ body {
   input[type="checkbox"] {
     margin-right: 5px;
   }
+.disclaimer {
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+  }
   
   
