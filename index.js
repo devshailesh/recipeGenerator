@@ -8,7 +8,7 @@ function showRecipes() {
   }
   
   function fetchRecipes(ingredients) {
-    const apiKey = '8ca9a32ef97643669620e3dde944dd07'; // Replace 'YOUR_API_KEY' with your actual API key
+    const apiKey = 'a05db446b8cc4cd6acd141949d3bea25'; // Replace 'YOUR_API_KEY' with your actual API key
     const url = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${ingredients.join(',')}&number=5&apiKey=${apiKey}`;
   
     fetch(url)
@@ -34,7 +34,7 @@ function showRecipes() {
   }
   
   function fetchCalories(recipeId, listItem) {
-    const apiKey = '8ca9a32ef97643669620e3dde944dd07'; // Replace 'YOUR_API_KEY' with your actual API key
+    const apiKey = 'a05db446b8cc4cd6acd141949d3bea25'; // Replace 'YOUR_API_KEY' with your actual API key
     const url = `https://api.spoonacular.com/recipes/${recipeId}/nutritionWidget.json?apiKey=${apiKey}`;
   
     fetch(url)
